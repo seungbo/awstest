@@ -108,7 +108,7 @@ class Inference:
                     out.write(g.read())  # Read bytes into file
                 self.vid_file_name = "ultralytics.mp4"
         elif self.source == "webcam":
-            self.vid_file_name = 1  # Use webcam index 0
+            self.vid_file_name = 0  # Use webcam index 0
 
     def configure(self):
         """Configure the model and load selected classes for inference."""
